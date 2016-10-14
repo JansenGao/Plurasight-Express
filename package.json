@@ -1,0 +1,14 @@
+{
+  "name": "plurasight_express",
+  "version": "1.0.0",
+  "description": "Exercise for plurasight express",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "Jansen Gao",
+  "license": "ISC"
+}
