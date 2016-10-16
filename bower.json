@@ -1,0 +1,24 @@
+{
+  "name": "plurasight_express",
+  "description": "Exercise for plurasight express",
+  "main": "app.js",
+  "authors": [
+    "Jansen Gao"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Express"
+  ],
+  "homepage": "https://github.com/JansenGao/Plurasight-Express",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3"
+  }
+}

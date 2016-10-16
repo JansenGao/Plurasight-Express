@@ -4,11 +4,24 @@
   "description": "Exercise for plurasight express",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "node app.js",
+    "start": "node app.js"
   },
   "keywords": [
     "Express"
   ],
   "author": "Jansen Gao",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JansenGao/Plurasight-Express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JansenGao/Plurasight-Express/issues"
+  },
+  "homepage": "https://github.com/JansenGao/Plurasight-Express#readme"
 }
