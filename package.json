@@ -13,8 +13,18 @@
   "author": "Jansen Gao",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.3"
   },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0"
+  },
+<<<<<<< HEAD
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-jscs": "^4.0.0",
@@ -22,6 +32,8 @@
     "jshint": "^2.9.3",
     "jshint-stylish": "^2.2.1"
   },
+=======
+>>>>>>> 90c499dae37cc6d606d662723ed70da33f60b02a
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/JansenGao/Plurasight-Express.git"
