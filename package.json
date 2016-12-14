@@ -13,15 +13,25 @@
   "author": "Jansen Gao",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.2",
     "gulp-jshint": "^2.0.1",
     "jade": "^1.11.0",
-    "jshint": "^2.9.3"
+    "jshint": "^2.9.3",
+    "mongodb": "^2.2.11",
+    "mssql": "^3.3.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-jscs": "^4.0.0",
     "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.2.1",
     "jshint": "^2.9.3",
     "jshint-stylish": "^2.2.1",
     "wiredep": "^4.0.0"
