@@ -70,6 +70,17 @@ app.get('/', function (req, res) {
     });
 });
 
+//A fake route to insert user
+app.use('/register', function(req, res){
+    res.render('register', {
+                nav: nav
+            });
+});
+
+app.post('/doRegister', function(req, res){
+    
+});
+
 app.get('/books', function (req, res) {
     res.send('');
 });
